@@ -1,0 +1,37 @@
+{
+  "name": "karasGraphRender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redkaras/karasGraphRender.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redkaras/karasGraphRender/issues"
+  },
+  "homepage": "https://github.com/redkaras/karasGraphRender#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-es2017": "^6.22.0",
+    "babel-register": "^6.24.0"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "babel-register": "^6.24.0",
+    "cross-env": "^3.2.4",
+    "ignore-styles": "^5.0.1"
+  },
+  "babel": {
+    "presets": ["es2015"]
+  },
+  "ava": {
+    "require": ["babel-register"]
+  }
+}
